@@ -35,7 +35,7 @@ export default function NavBar() {
                     </button>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
                         <ul className="flex flex-col font-medium  md:space-x-8 rtl:space-x-reverse md:flex-row">
-                            <Link to={"/"} className={`block py-2 px-3 md:p-0 ${location == "/" ? "text-blue-600" : "text-black"
+                            <Link to={"/"} className={`block py-2 px-3 md:p-0 ${location == "/" ? "text-blue-600" : "text-blue-600"
                                 }`}>HOME
                             </Link>
                             <Link to={"/About"}
@@ -57,6 +57,10 @@ export default function NavBar() {
                             <Link to={"/Jewellery"}
                                 className={`block py-2 px-3 md:p-0 ${location == "/Jewellery" ? "text-blue-600" : "text-black"
                                     }`}>JEWELLERY
+                            </Link>
+                            <Link to={"/Sale"}
+                                className={`block py-2 px-3 md:p-0 ${location == "/Sale" ? "text-blue-600" : "text-blue-600"
+                                    }`}>SALE
                             </Link>
                         </ul>
                     </div>
@@ -86,6 +90,10 @@ export default function NavBar() {
                             <Link to={"/Jewellery"}
                                 className={`block py-2 px-3 md:p-0 ${location == "/Jewellery" ? "text-blue-600" : "text-black"
                                     }`}>JEWELLERY
+                            </Link>
+                            <Link to={"/Sale"}
+                                className={`block py-2 px-3 md:p-0 ${location == "/Sale" ? "text-blue-600" : "text-blue-600"
+                                    }`}>SALE
                             </Link>
                         </ul>
                     </div>

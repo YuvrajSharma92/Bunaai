@@ -5,6 +5,7 @@ import Dresses from './Components/extra/Dresses'
 import Juttis from './Components/extra/Juttis'
 import About from './Components/extra/About'
 import Jewellery from './Components/extra/Jewellery'
+import Sale from './Components/extra/Sale'
 import NavBar from './Components/NavBar'
 import Footer from './Components/Footer'
 
@@ -23,6 +24,7 @@ export default function App() {
        <Route exact path ="/Juttis" element ={<Juttis/>}/>
        <Route exact path ="/About" element ={<About/>}/>
        <Route exact path ="/Jewellery" element ={<Jewellery/>}/>
+       <Route exact path ="/Sale" element ={<Sale/>}/>
 
     </Routes>
    </BrowserRouter>
