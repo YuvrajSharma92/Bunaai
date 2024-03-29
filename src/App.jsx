@@ -8,7 +8,7 @@ import Jewellery from './Components/extra/Jewellery'
 import NavBar from './Components/NavBar'
 import Footer from './Components/Footer'
 
-import { BrowserRouter, Routes, Route,  } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 
 export default function App() {
