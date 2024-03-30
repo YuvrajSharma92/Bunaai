@@ -85,7 +85,7 @@ export default function NewArrivals() {
                     </div>
                 </div>
                 <div className='flex items-center justify-center my-6'>
-                     <button className='bg-[#dc747d] px-5 py-3 text-white rounded-lg'>SHOW MORE</button>
+                     <a href=""><button className='bg-[#dc747d] px-5 py-3 text-white rounded-lg'>SHOW MORE</button></a>
                 </div>
             </div>
             {/*  */}
