@@ -78,7 +78,7 @@ export default function SwiperSlider() {
 
         <SwiperSlide>
         <div className='w-[200px] rounded-full px-4'>
-            <img className='rounded-full' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711453027/new-6118_gl2sjc.webp" alt="" />
+            <img className='rounded-full' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711527441/Indianwearjan24-3303_ewryun.webp" alt="" />
             </div>
         </SwiperSlide>
 
