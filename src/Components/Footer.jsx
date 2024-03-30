@@ -46,7 +46,7 @@ export default function Footer() {
           <div className='w-[100%]'>
             <h1 className='text-[18px] text-[#7a273a] py-3 font-medium text-center'>CUSTOMER SERVICE</h1>
             <div className=' flex justify-around'>
-             <li className='w-[40px] h-[40px] rounded-full bg-white list-none'><i className="text-[#7a273a] pl-2 text-[24px]  bi bi-facebook"></i></li>
+             <li className='w-[40px] h-[40px]  rounded-full bg-white list-none'><i className="text-[#7a273a] pl-2 text-[24px]  bi bi-facebook"></i></li>
              <li className='w-[40px] h-[40px] rounded-full bg-white list-none'><i className="bi bi-instagram text-[#7a273a] pl-2 text-[24px]"></i></li>
              <li className='w-[40px] h-[40px] rounded-full bg-white list-none'><i className="bi bi-youtube text-[#7a273a] pl-2 text-[24px]"></i></li>
              <li className='w-[40px] h-[40px] rounded-full bg-white list-none'><i className="bi bi-whatsapp text-[#7a273a] pl-2 text-[24px]"></i></li>
