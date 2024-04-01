@@ -6,53 +6,56 @@ export default function Dresses() {
       <div>
         <img src="https://www.bunaai.com/cdn/shop/collections/577256121-dresses.jpg?v=1705986991" alt="" />
       </div>
-      <div className=' px-5 mt-3'>
-        <div className='text-center pt-3 cursor-pointer'>
-          <h3 className='text-[24px] font-serif'>Accentuate your style with</h3>
-          <h1 className='text-4xl font-semibold text-red-400'>DRESSES</h1>
-          <p className='text-[16px]'>Explore a section of breezy fluid silhouettes to flatter your body.</p>
-          <h2 className='text-red-500 font-medium text-[20px] underline pt-3'>16 Product-</h2>
+      <div className='text-center pt-3 cursor-pointer'>
+        <h3 className='text-[24px] font-serif'>Accentuate your style with</h3>
+        <h1 className='text-4xl font-semibold text-red-400'>DRESSES</h1>
+        <p className='text-[16px]'>Explore a section of breezy fluid silhouettes to flatter your body.</p>
+        <h2 className='text-red-500 font-medium text-[20px] underline pt-3'>16 Product-</h2>
+      </div>
 
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-col-3 md:grid-cols-4 lg:grid-cols-5  mx-4 cursor-pointer'>
-          <div className='border-solid w-[80%] hidden sm:hidden md:block'>
-            <ul className='flex gap-2 justify-center py-1'>
-              <li className='bg-red-500 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-green-600 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-blue-500 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-emerald-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-sky-800 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-sky-300 w-[25px] h-[25px] rounded-full'></li>
-            </ul>
+      <div className=' w-full flex'>
+        <div className=' w-[20%] h-[750px] hidden sm:hidden md:block px-5 py-4'>
+          <hr className='' />
+          <h1 className='text-red-400'> Color</h1>
+          <input className='h-[20px] w-[20px] bg-green-400 my-2' type="text" name="" id="" /> Green<br />
+          <input className='h-[20px] w-[20px] bg-pink-500 my-2' type="text" name="" id="" /> Pink<br />
+          <input className='h-[20px] w-[20px] bg-red-500 my-2' type="text" name="" id="" /> Red<br />
+          <input className='h-[20px] w-[20px] bg-black my-2' type="text" name="" id="" /> Black<br />
+          <input className='h-[20px] w-[20px] bg-orange-300 my-2' type="text" name="" id="" /> Orange<br />
+          <input className='h-[20px] w-[20px] bg-emerald-800 my-2' type="text" name="" id="" /> Emerald<br />
+          <input className='h-[20px] w-[20px] bg-blue-600 my-2' type="text" name="" id="" /> Blue<br />
+          <input className='h-[20px] w-[20px] bg-gray-500 my-2' type="text" name="" id="" /> Gray<br />
+          <input className='h-[20px] w-[20px] bg-pink-900 my-2' type="text" name="" id="" /> pink<br />
+          <input className='h-[20px] w-[20px] bg-red-950 my-2' type="text" name="" id="" /> Red <br />
+          <input className='h-[20px] w-[20px] bg-slate-200 my-2' type="text" name="" id="" /> Slate<br />
+          <input className='h-[20px] w-[20px] bg-orange-200 my-2' type="text" name="" id="" /> Orange<br />
+          <input className='h-[20px] w-[20px] bg-yellow-400 my-2' type="text" name="" id="" /> Yellow<br />
+          <hr />
+          <div className='mt-5'>
+            <h1 className='text-red-400 my-3'>SIZE</h1>
+            <ul className='gap-3 grid'>
+              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl border-solid border-[1px] border-gray-500'>e</li >
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>d</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>sd</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>c</li>
+              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl  border-solid border-[1px] border-gray-500 my-2'>xc</li>
 
-            <ul className='flex gap-2 justify-center py-1'>
-              <li className='bg-pink-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-orange-400 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-gray-950 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-lime-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-indigo-600 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-fuchsia-600 w-[25px] h-[25px] rounded-full'></li>
-            </ul>
-
-            <ul className='flex gap-2 justify-center py-1'>
-              <li className='bg-blue-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-cyan-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-blue-950 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-pink-800 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-amber-400 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-red-800 w-[25px] h-[25px] rounded-full'></li>
-            </ul>
-
-            <ul className='flex gap-2 justify-center py-1'>
-              <li className='bg-red-500 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-green-600 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-blue-500 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-emerald-300 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-sky-800 w-[25px] h-[25px] rounded-full'></li>
-              <li className='bg-sky-300 w-[25px] h-[25px] rounded-full'></li>
             </ul>
           </div>
+          <hr />
+          <div className='pt-5'>
+            <h1 className='text-red-400'>FABRIC</h1>
+            <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> 60*60 (30)<br />
+            <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Mulmul (12)<br />
+            <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Silk Crepe (12)<br />
+            <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Cotton Silk (25)<br />
+            <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Georgette (72)<br />
 
+          </div>
+
+
+        </div>
+        <div className='w-[100%] grid grid-cols-2 sm:grid-cols-4'>
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/products/Sep21-8048.jpg?v=1661784024&width=360" alt="" />
@@ -88,18 +91,7 @@ export default function Dresses() {
             <h1 className='text-red-600'>CHERRY BLOSSOM EMBROIDERED DRESS</h1>
             <p>₹ 4,310.00</p>
           </div>
-        </div>
 
-        <div className='w-full place-content-center cursor-pointer  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 lg:grid-cols-5 '>
-
-          <div className='rounded-lg w-[90%] py-5 hidden sm:hidden md:block'>
-            <h1 className='text-red-500 pt-10 text-2xl'> DISCOUNT</h1>
-            <input type="checkbox" name="" id="" /> 0% - 5% (73) (0)<br></br>
-            <input type="checkbox" name="" id="" /> 6% - 10% (73) (17)<br></br>
-            <input type="checkbox" name="" id="" /> 11% - 15% (7) (0)<br></br>
-            <input type="checkbox" name="" id="" /> 21% -25% (6) (0)<br></br>
-            <input type="checkbox" name="" id="" /> 36% - 40% (1) (0)<br></br>
-          </div>
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/products/indianwearonline-0274.jpg?v=1674903551&width=360" alt="" />
@@ -135,16 +127,8 @@ export default function Dresses() {
             <h1 className='text-red-600'>MULTI COLOR COTTON DRESS</h1>
             <p>₹ 4,260.00</p>
           </div>
-        </div>
-      </div>
 
 
-
-
-      <div className=' px-5 mt-3'>
-        <div className='w-full grid grid-cols-2 sm:grid-col-3 md:grid-cols-4 lg:grid-cols-5 place-content-center cursor-pointer'>
-          <div className=' py-5 pt-14 text-gray-500 hidden sm:hidden md:hidden lg:block'>
-          </div>
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711535214/Bold_Beautiful-7305_nvvgcv.webp" alt="" />
@@ -180,11 +164,7 @@ export default function Dresses() {
             <h1 className='text-red-600'>CHERRY BLOSSOM EMBROIDERED DRESS</h1>
             <p>₹ 4,310.00</p>
           </div>
-        </div>
 
-        <div className='w-full place-content-center cursor-pointer  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 lg:grid-cols-5 '>
-          <div className='rounded-lg w-[90%] py-5 hidden sm:hidden md:hidden lg:block'>
-          </div>
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711535205/Bold_Beautiful-0226_i3sdhw.webp" alt="" />
@@ -220,10 +200,10 @@ export default function Dresses() {
             <h1 className='text-red-600'>BLACK LUREX PANT & CROP TOP</h1>
             <p>₹ 3,260.00</p>
           </div>
+
+
         </div>
       </div>
-
-      {/*  */}
     </>
   )
 }
