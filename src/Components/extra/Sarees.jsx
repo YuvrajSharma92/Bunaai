@@ -14,9 +14,10 @@ export default function Sarees() {
       </div>
 
       <div className=' w-full flex'>
-        <div className=' w-[20%] h-[750px] hidden sm:hidden md:block px-5 py-4'>
+        <div className=' w-[20%] hidden sm:hidden md:block px-5 py-4'>
           <hr className='' />
-          <h1 className='text-red-400'> Color</h1>
+          <h1 className='text-red-400 text-[22px]'>Color</h1>
+          <input className='border-[1px] border-black p-1 outline-none' placeholder='Color' type="search" name="" id="" />
           <input className='h-[20px] w-[20px] bg-green-400 my-2' type="text" name="" id="" /> Green<br />
           <input className='h-[20px] w-[20px] bg-pink-500 my-2' type="text" name="" id="" /> Pink<br />
           <input className='h-[20px] w-[20px] bg-red-500 my-2' type="text" name="" id="" /> Red<br />
@@ -34,17 +35,19 @@ export default function Sarees() {
           <div className='mt-5'>
             <h1 className='text-red-400 my-3'>SIZE</h1>
             <ul className='gap-3 grid'>
-              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl border-solid border-[1px] border-gray-500'>e</li >
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>d</li>
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>sd</li>
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>c</li>
-              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl  border-solid border-[1px] border-gray-500 my-2'>xc</li>
-
+              <li className='w-[40px] h-[40px] rounded-lg text-center text-2xl border-solid border-[1px] border-gray-500'>xl</li >
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>s</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>m</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>L</li>
+              <li className='w-[40px] h-[40px] rounded-lg text-center text-2xl  border-solid border-[1px] border-gray-500 my-2'>xL</li>
             </ul>
+            <input className='border-[1px] border-black p-1 outline-none w-[45%] mx-1' placeholder='No.' type="number" name="" id="" />
+            <input className='border-[1px] border-black p-1 outline-none w-[45%] mx-1' placeholder='No.' type="number" name="" id="" />
           </div>
           <hr />
           <div className='pt-5'>
             <h1 className='text-red-400'>FABRIC</h1>
+            <input className='border-[1px] border-black p-1 outline-none' placeholder='Fabric' type="search" name="" id="" />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> 60*60 (30)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Mulmul (12)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Silk Crepe (12)<br />
@@ -52,10 +55,11 @@ export default function Sarees() {
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Georgette (72)<br />
 
           </div>
+          <hr />
 
 
         </div>
-        <div className='w-[100%] grid grid-cols-2 sm:grid-cols-4'>
+        <div className='w-[100%] grid grid-cols-2 sm:grid-cols-4 mx-5'>
         <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711539482/Indianwearjan24-3873_ycycco.webp" alt="" />

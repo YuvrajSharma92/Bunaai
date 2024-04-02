@@ -14,9 +14,10 @@ export default function Dresses() {
       </div>
 
       <div className=' w-full flex'>
-        <div className=' w-[20%] h-[750px] hidden sm:hidden md:block px-5 py-4'>
+        <div className=' w-[20%] hidden sm:hidden md:block px-5 py-4'>
           <hr className='' />
           <h1 className='text-red-400'> Color</h1>
+          <input className='border-[1px] border-black p-1 outline-none' placeholder='Color' type="search" name="" id="" />
           <input className='h-[20px] w-[20px] bg-green-400 my-2' type="text" name="" id="" /> Green<br />
           <input className='h-[20px] w-[20px] bg-pink-500 my-2' type="text" name="" id="" /> Pink<br />
           <input className='h-[20px] w-[20px] bg-red-500 my-2' type="text" name="" id="" /> Red<br />
@@ -34,28 +35,29 @@ export default function Dresses() {
           <div className='mt-5'>
             <h1 className='text-red-400 my-3'>SIZE</h1>
             <ul className='gap-3 grid'>
-              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl border-solid border-[1px] border-gray-500'>e</li >
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>d</li>
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>sd</li>
-              <li className='w-[40px] h-[40px] text-center text-2xl rounded-xl  border-solid border-[1px] border-gray-500'>c</li>
-              <li className='w-[40px] h-[40px] rounded-xl text-center text-2xl  border-solid border-[1px] border-gray-500 my-2'>xc</li>
+              <li className='w-[40px] h-[40px] rounded-lg text-center text-2xl border-solid border-[1px] border-gray-500'>xs</li >
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>S</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>M</li>
+              <li className='w-[40px] h-[40px] text-center text-2xl rounded-lg  border-solid border-[1px] border-gray-500'>L</li>
+              <li className='w-[40px] h-[40px] rounded-lg text-center text-[21px]  border-solid border-[1px] border-gray-500 my-2'>XL</li>
 
             </ul>
+            <input className='border-[1px] border-black p-1 outline-none w-[45%] mx-1' placeholder='No.' type="number" name="" id="" />
+            <input className='border-[1px] border-black p-1 outline-none w-[45%]' placeholder='No.' type="number" name="" id="" />
           </div>
           <hr />
           <div className='pt-5'>
             <h1 className='text-red-400'>FABRIC</h1>
+            <input className='border-[1px] border-black p-1 outline-none' placeholder='Fabric' type="search" name="" id="" />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> 60*60 (30)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Mulmul (12)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Silk Crepe (12)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Cotton Silk (25)<br />
             <input className='h-[20px] w-[20px] rounded-full my-2 border-2' type="text" name="" id="" /> Georgette (72)<br />
-
           </div>
 
-
         </div>
-        <div className='w-[100%] grid grid-cols-2 sm:grid-cols-4'>
+        <div className='w-[100%] grid grid-cols-2 sm:grid-cols-4 mx-5'>
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/products/Sep21-8048.jpg?v=1661784024&width=360" alt="" />
@@ -127,7 +129,6 @@ export default function Dresses() {
             <h1 className='text-red-600'>MULTI COLOR COTTON DRESS</h1>
             <p>₹ 4,260.00</p>
           </div>
-
 
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
@@ -201,6 +202,59 @@ export default function Dresses() {
             <p>₹ 3,260.00</p>
           </div>
 
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-5175.jpg?v=1708513323&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-5157.jpg?v=1708513324&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>HOT RED COTTON MAXI DRESS</h1>
+            <p>₹ 4,500.00</p>
+          </div>
+
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-7420.jpg?v=1708515383&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-7399.jpg?v=1708515384&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>WHITE BLACK FLORAL SCHIFFLI COORD SET</h1>
+            <p>₹ 4,500.00</p>
+          </div>
+
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-3793.jpg?v=1706938269&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-3779.jpg?v=1706938271&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>BLUSH PINK GEORGETTE DRAPED SAREE</h1>
+            <p>₹ 6,500.00</p>
+          </div>
+
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-7007.jpg?v=1708538026&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-6990.jpg?v=1708538025&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>WHITE COTTON DOBBY COORD SET</h1>
+            <p>₹ 3,500.00</p>
+          </div>
+
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-7846.jpg?v=1708515481&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-7816.jpg?v=1708515482&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>LILAC FLORAL SCHIFFLI COORD SET</h1>
+            <p>₹ 4,580.00</p>
+          </div>
+
+          <div className='w-[90%] py-5'>
+            <div className='relative rounded-lg'>
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-4048.jpg?v=1708508058&width=360" alt="" />
+              <img className='rounded-lg absolute hover:opacity-0 duration-500 z-0 top-0 left-0' src="https://www.bunaai.com/cdn/shop/files/Indianwearjan24-4032.jpg?v=1708508057&width=360" alt="" />
+            </div>
+            <h1 className='text-red-600'>GREEN FLORAL CHIFFON SUIT SET</h1>
+            <p>₹ 7,500.00</p>
+          </div>
 
         </div>
       </div>

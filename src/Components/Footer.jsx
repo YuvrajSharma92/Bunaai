@@ -7,14 +7,14 @@ export default function Footer() {
           <div className='w-[90%] py-4'>
             <h1 className='text-[18px] text-[#7a273a] py-3 font-medium'>CATEGORIES</h1>
               <ul className='text-[#7a273a] cursor-pointer'>
-                <li>New Arrivals</li>
-                <li>Dresses</li>
+               <a href="http://localhost:5173/Dresses"> <li>Dresses</li></a>
+              <a href="http://localhost:5173/Sarees"><li>Sarees</li></a>
+                <a href="http://localhost:5173/Juttis"><li>juttis</li></a>
+                <a href="http://localhost:5173/Sale"><li>Sale</li></a>
+                <a href="http://localhost:5173/Jewellery">Jewellrey</a>
                 <li>Kurta & Suit Sets</li>
+                <li>New Arrivals</li>
                 <li>Lehenga Sets</li>
-                <li>Sarees</li>
-                <li>Bed Linens</li>
-                <li>Shoes</li>
-                <li>Sale</li>
               </ul>
           </div>
           <div className='w-[90%]'>
