@@ -89,7 +89,7 @@ export default function Sarees() {
 
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
-              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711539481/Indianwearjan24-3722_l3y3m4.webp" alt="" />
+              <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711539481/Indianwearjan24-3742_vlbhsz.webp" alt="" />
               <img className='rounded-lg absolute hover:opacity-0 z-0 top-0 left-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711539481/Indianwearjan24-3722_l3y3m4.webp" alt="" />
             </div>
             <h1 className='text-red-600'>BLACK GEORGETTE DRAPED SAREE</h1>
