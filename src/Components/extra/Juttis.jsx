@@ -47,7 +47,6 @@ export default function Juttis() {
             <p>₹ 1,500.00</p>
           </div>
 
-
           <div className='rounded-lg w-[90%] py-5'>
             <div className='relative rounded-lg'>
               <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://www.bunaai.com/cdn/shop/products/JuttiMojarionlineindia-5460_a3030e99-2105-4a4b-8a7d-6e329f1e826a.jpg?v=1680069671&width=360" alt="" />
@@ -105,9 +104,6 @@ export default function Juttis() {
           </div>
         </div>
       </div>
-
-
-
 
       <div className=' px-5 mt-3'>
         <div className='w-full grid grid-cols-2 sm:grid-col-3 md:grid-cols-4 lg:grid-cols-5  mx-4 cursor-pointer'>
