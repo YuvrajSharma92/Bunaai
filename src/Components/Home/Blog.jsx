@@ -10,7 +10,7 @@ export default function Blog() {
                     <h1 className='text-4xl font-semibold text-red-400'>DRESSES</h1>
                     <p className='text-[20px]'>Explore a section of breezy fluid silhouettes to flatter your body.</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 place-content-center cursor-pointer'>
+                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 ml-4 place-content-center cursor-pointer'>
 
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>
@@ -49,7 +49,7 @@ export default function Blog() {
                     </div>
                 </div>
 
-                <div className='w-full place-content-center cursor-pointer  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 '>
+                <div className='w-full place-content-center cursor-pointer  grid grid-cols-2 ml-4 sm:grid-col-2 md:grid-cols-4 '>
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>
                             <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711453012/indianwearonline-0274_d3icse.webp" alt="" />

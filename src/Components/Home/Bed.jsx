@@ -10,7 +10,7 @@ export default function Bed() {
                     <h1 className='text-4xl font-semibold text-red-400'>BED LINENS</h1>
                     <p className='text-[20px]'>in a variety of colors, textures, and designs..</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 place-content-center cursor-crosshair'>
+                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 ml-4 cursor-crosshair'>
 
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>
@@ -49,7 +49,7 @@ export default function Bed() {
                     </div>
                 </div>
 
-                <div className='w-full place-content-center cursor-crosshair  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 '>
+                <div className='w-full place-content-center cursor-crosshair ml-4 grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 '>
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>
                             <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711453000/BedsheetOnlineIndia-6509_ww5juy.webp" alt="" />

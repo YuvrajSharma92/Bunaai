@@ -43,12 +43,12 @@ export default function NewArrivals() {
                             <img className='rounded-lg  hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711452992/Arrivals-bg-4_tk0mxh.webp" alt="" />
                             <img className='rounded-lg absolute hover:opacity-0 z-0 top-0 left-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711452995/Arrivals-img-4_tfykan.webp" alt="" />
                         </div>
-                        <h1 className='text-red-600 font-medium'>Bright Green Handpainted Suit Set</h1>
+                        <h1 className='text-red-600 font-medium'>Bright Handpainted Suit Set</h1>
                         <p>₹ 7,240.00</p>
                     </div>
                 </div>
 
-                <div className='w-full place-content-center cursor-pointer  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 '>
+                <div className='w-full place-content-center cursor-pointer ml-4  grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 '>
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>
                             <img className='rounded-lg hover:opacity-0 z-0 duration-500' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711452993/Arrivals-bg-5_dwa5un.webp" alt="" />
