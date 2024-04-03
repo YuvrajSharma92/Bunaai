@@ -9,7 +9,7 @@ export default function NewArrivals() {
                     <h1 className='text-4xl font-semibold text-red-400'>NEW ARRIVALS</h1>
                     <p className='text-[20px]'>Women's Ethnicwear & Westernwear for everyday & ocassions</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4  place-content-center cursor-pointer'>
+                <div className='w-full grid grid-cols-2 sm:grid-col-2 md:grid-cols-4 place-content-center place-items-center cursor-pointer'>
 
                     <div className='rounded-lg w-[90%] py-5'>
                         <div className='relative rounded-lg'>

@@ -21,7 +21,7 @@ export default function NavBar() {
             {/*  */}
             <nav className="bg-[#f0f4f7] py-2 ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-                    <img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711453039/web_logo_kywb81.avif" className="pl-7" alt="" />
+                    <img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1711453039/web_logo_kywb81.avif" className="" alt="" />
                     <button
                         onClick={() => {
                             setOpen(!open)
@@ -34,32 +34,32 @@ export default function NavBar() {
                         </i>
                     </button>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-                        <ul className="flex flex-col font-medium  md:space-x-8 rtl:space-x-reverse md:flex-row">
-                            <Link to={"/"} className={`block py-2 px-3 md:p-0 ${location == "/" ? "text-blue-600" : "text-blue-600"
+                        <ul className="flex flex-col font-medium  md:space-x-8 rtl:space-x-reverse md:flex-row pr-3 text-[19px]">
+                            <Link to={"/"} className={`block py-2 px-3 md:p-0 hover:underline ${location == "/" ? "text-blue-600" : "text-blue-600"
                                 }`}>HOME
                             </Link>
                             <Link to={"/About"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/About" ? "text-blue-600" : "text-black"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/About" ? "text-blue-600" : "text-black"
                                     }`}>ABOUT
                             </Link>
                             <Link to={"/Dresses"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/Dresses" ? "text-blue-600" : "text-black"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/Dresses" ? "text-blue-600" : "text-black"
                                     }`}>DRESSES
                             </Link>
                             <Link to={"/Sarees"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/Sarees" ? "text-blue-600" : "text-black"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/Sarees" ? "text-blue-600" : "text-black"
                                     }`}>SAREES
                             </Link>
                             <Link to={"/Juttis"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/Juttis" ? "text-blue-600" : "text-black"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/Juttis" ? "text-blue-600" : "text-black"
                                     }`}>JUTTIS
                             </Link>
                             <Link to={"/Jewellery"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/Jewellery" ? "text-blue-600" : "text-black"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/Jewellery" ? "text-blue-600" : "text-black"
                                     }`}>JEWELLERY
                             </Link>
                             <Link to={"/Sale"}
-                                className={`block py-2 px-3 md:p-0 ${location == "/Sale" ? "text-blue-600" : "text-blue-600"
+                                className={`block py-2 px-3 md:p-0 hover:underline ${location == "/Sale" ? "text-blue-600" : "text-blue-600"
                                     }`}>SALE
                             </Link>
                         </ul>
@@ -97,9 +97,13 @@ export default function NavBar() {
                             </Link>
                         </ul>
                     </div>
-                    <div className='flex items-center justify-around w-[10%] h-[50px]'>
-                    <i className="text-[16px] sm:text-[20px] bi bi-cart"></i>
-                    <i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i>
+                    <div className=' items-center justify-around hidden lg:block'>
+                        <ul className='flex gap-4 pr-6'>
+                            <li> <i className="text-[16px] sm:text-[20px] bi bi-cart"></i></li>
+                            <li><i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i></li>
+                        </ul>
+                    {/* <i className="text-[16px] sm:text-[20px] bi bi-cart"></i> */}
+                    {/* <i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i> */}
                 </div>
                 </div>
             </nav>
