@@ -6,16 +6,18 @@ export default function NavBar() {
     const [open, setOpen] = useState(false)
     const location = useLocation().pathname;
     const navigate = useNavigate();
+
     return (
         <>
 
             {/*  */}
             <div className='sticky top-0 z-[4]'>
-            <div className='bg-red-400 w-full h-[60px] flex items-center justify-around'>
+            <div className='bg-red-400 w-full h-[60px] flex items-center justify-center'>
                 <div className='w-[90%] sm:w-[30%] bg-white rounded-md'>
                    <input className='w-[80%]  h-[40px] rounded-md outline-none pl-2' type="search" name="" id="" />  
                    <i className="text-[20px] pl-3 bi bi-search"></i>
                 </div>
+
             </div>
             {/*  */}
             {/*  */}
@@ -102,8 +104,6 @@ export default function NavBar() {
                             <li> <i className="text-[16px] sm:text-[20px] bi bi-cart"></i></li>
                             <li><i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i></li>
                         </ul>
-                    {/* <i className="text-[16px] sm:text-[20px] bi bi-cart"></i> */}
-                    {/* <i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i> */}
                 </div>
                 </div>
             </nav>
