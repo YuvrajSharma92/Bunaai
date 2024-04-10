@@ -19,13 +19,12 @@ export default function NavBar() {
     }
 
     const handleChange = (e) => {
-        e.preventDefault();
-        setChange("");
         setChange(e.targer.value)
+        
         // console.log(handleChange);
     }
 
-    const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/btc.min.json"
+    const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/inr.json"
     const dropdowns = document.querySelectorAll("#dropdowns select")
 
 
@@ -138,7 +137,7 @@ export default function NavBar() {
                         <div className=' items-center justify-around flex pr-2 ' id='dropdowns'>
                             <img className='w-[30%] ' src="https://flagsapi.com/IN/flat/64.png" alt="" />
                             <select onClick={() => {
-                                setChange(change)
+                                setChange(!change)
                             }} name="from" className='flex'>
                                 <option value="INR">INR</option>
                                 <option value="USD">USD</option>
