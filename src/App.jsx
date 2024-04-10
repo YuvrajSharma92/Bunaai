@@ -7,6 +7,7 @@ import About from './Components/extra/About'
 import Jewellery from './Components/extra/Jewellery'
 import Sale from './Components/extra/Sale'
 import NavBar from './Components/NavBar'
+// import Codes from './Components/Codes.js'
 import Footer from './Components/Footer'
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
