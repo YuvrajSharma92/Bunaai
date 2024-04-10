@@ -20,7 +20,6 @@ export default function NavBar() {
 
     const handleChange = (e) => {
         setChange(e.targer.value)
-        
         // console.log(handleChange);
     }
 
