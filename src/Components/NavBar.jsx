@@ -136,7 +136,7 @@ export default function NavBar() {
                         <div className=' items-center justify-around flex pr-2 ' id='dropdowns'>
                             <img className='w-[30%] ' src="https://flagsapi.com/IN/flat/64.png" alt="" />
                             <select onClick={() => {
-                                setChange(!change)
+                                setChange(change)
                             }} name="from" className='flex'>
                                 <option value="INR">INR</option>
                                 <option value="USD">USD</option>
