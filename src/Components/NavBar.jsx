@@ -1,46 +1,11 @@
 import React, { useState } from 'react'
 // import Codes from ""
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-
-
 export default function NavBar() {
     const [open, setOpen] = useState(false)
     const location = useLocation().pathname;
     const navigate = useNavigate();
-    const [change, setChange] = useState()
 
-
-    const updateflag = (e) => {
-        const currcode = e.value;
-        const counutryCode = counutryList[currcode]
-        const newSrc = `https://flagsapi.com/${counutryCode}/flat/64.png`;
-        const img = e.parentElement.querySelector("img");
-        img.src = newSrc;
-    }
-
-    const handleChange = (e) => {
-        setChange(e.targer.value)
-        // console.log(handleChange);
-    }
-
-    const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/inr.json"
-    const dropdowns = document.querySelectorAll("#dropdowns select")
-
-
-    for (let select of dropdowns) {
-        for (currcode in CountryList) {
-            // console.log(code);
-            let newOption = document.createElement("option");
-            newOption.innerText = currcode;
-            newOption.value = currcode;
-
-            if (select.name === "from" && currcode === "INR") {
-                newOption.selected = "selected"
-            }
-
-            select.append(newOption)
-        }
-    }
     return (
         <>
 
@@ -133,29 +98,18 @@ export default function NavBar() {
                                 </Link>
                             </ul>
                         </div>
-                        <div className=' items-center justify-around flex pr-2 ' id='dropdowns'>
-                            <img className='w-[30%] ' src="https://flagsapi.com/IN/flat/64.png" alt="" />
-                            <select onClick={() => {
-                                setChange(change)
-                            }} name="from" className='flex'>
-                                <option value="INR">INR</option>
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="AUD">AUD</option>
-                            </select>
+                        <div className=' items-center justify-around flex pr-2 ' id=''>
 
 
 
-
-                            {/* <ul className='flex gap-4 pr-6'>
+                            <ul className='flex gap-4 pr-6'>
                             <li> <i className="text-[16px] sm:text-[20px] bi bi-cart"></i></li>
                             <li><i className=" text-[16px] sm:text-[23px] bi bi-person-plus"></i></li>
-                        </ul> */}
+                        </ul>
                         </div>
                     </div>
                 </nav>
             </div>
-            <script src="Codes.js"></script>
         </>
     )
 }
